@@ -9,11 +9,19 @@ public class Tank {
     private int n;
 
     public Tank() {
+    bug_fix
+        this(0, 0, 184);
+    }
+
+    public Tank(int x, int y) {
+        this(x, y, 184);
+
         this(0, 0, 125);
     }
 
     public Tank(int x, int y) {
         this(x, y, 125);
+    main
     }
 
     public Tank(int x, int y, int fuel) {
